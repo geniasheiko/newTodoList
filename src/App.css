@@ -1,0 +1,38 @@
+.app {
+  padding: 30px;
+  display: flex;
+}
+/* .container {
+  display: flex;
+  align-items:center; 
+} */
+.addNewTodoList {
+  display: flex;
+  flex-direction: row;
+}
+.app > div {
+  margin-right: 50px;
+}
+.task{
+  font-weight: 600;
+}
+.task-done {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+.filtreBtn-active {
+  background-color: #3832E7;
+  color:#318CE7;
+  border-radius: 3px;
+  border: 2px solid #3832E7
+}
+
+.error {
+  border: 1px solid red;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+}
+
