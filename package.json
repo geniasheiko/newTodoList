@@ -3,13 +3,21 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://geniasheiko.github.io/geniasheiko/newTodoList",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build --base=./",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "test": "vitest",
+    "preview": "vite preview",
+    "predeploy": "pnpm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.4.3",
+    "@mui/material": "^6.4.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "uuid": "^11.0.5"
@@ -25,6 +33,7 @@
     "globals": "^15.14.0",
     "typescript": "~5.6.2",
     "typescript-eslint": "^8.18.2",
-    "vite": "^6.0.5"
+    "vite": "^6.0.5",
+    "vitest": "^3.0.5"
   }
 }
