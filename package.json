@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://geniasheiko.github.io/geniasheiko/newTodoList",
+  "homepage": "https://geniasheiko.github.io/newTodoList",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build --base=./",
@@ -18,12 +18,14 @@
     "@emotion/styled": "^11.14.0",
     "@mui/icons-material": "^6.4.3",
     "@mui/material": "^6.4.3",
+    "@reduxjs/toolkit": "^2.5.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "uuid": "^11.0.5"
+    "react-redux": "^9.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
+    "@types/node": "^22.13.8",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "@vitejs/plugin-react-swc": "^3.5.0",
